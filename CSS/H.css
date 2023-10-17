@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Gabarito ;
+}
+nav{
+    position: sticky;
+    margin-top: 2px;
+    text-align: center;
+    background-color: red;
+    top: 0;
+}
+ul{
+    display: flex;
+    list-style: none;
+    color: black;
+}
+li{
+    padding: 15px;
+}
+nav a{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color: cyan;
+  }
+section p{
+    border: 3px solid;
+    border-color: black;
+;
+}
+h1{
+    background-color: cyan;
+}
+img{
+    width: 320px;
+}
+section p{
+    float: right;
+    background-color: red;
+    margin-right:60px
+}
