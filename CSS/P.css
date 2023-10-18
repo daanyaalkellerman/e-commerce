@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Gabarito ;
+}
+nav a{
+    position: sticky;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+   text-decoration: none;
+}
+nav a:hover{
+    background-color: orangered;
+    color: black;
+}
+ul{
+    display: flex;
+    list-style: none;
+    color: black;
+}
+li{
+    padding: 10px;
+}
+body{
+    background: linear-gradient(teal,honeydew) no-repeat;
+
+  }
+  h3{
+    padding: 10px;
+    background-color: Blue;
+    color: orangered;
+    text-align: center;
+}
+
+.container{
+    margin-left: 100px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-areas: 
+    "birds places things"
+    "data1 data2 data3"
+    "data4 data5 data6"
+    "data7 data8 data9"
+    ; 
+}
+img{
+    width:200px;
+    
+}
+footer{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
