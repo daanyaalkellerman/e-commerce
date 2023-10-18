@@ -33,23 +33,23 @@ li{
 h1{
     background-size: cover;
     padding: 20px;
-    background-color: Blue;
+    background-color: black;
     color: orangered;
     text-align: center;
 }
 body{
-    background: linear-gradient(teal,honeydew) no-repeat;
+    background: linear-gradient(black, purple) no-repeat;
 
   }
   @media screen and (max-width:600px){
     body{
-        background: linear-gradient(teal,honeydew) no-repeat;
+        background: linear-gradient(black, purple) no-repeat;
     
       }
     }
       @media screen and (min-width:320px){
         body{
-            background: linear-gradient(teal,honeydew) no-repeat;
+            background: linear-gradient(black, purple) no-repeat;
         
           }
         }
@@ -60,7 +60,7 @@ body{
           }
           
           .box {
-            background-color: orangered;
+            background-color: black;
             padding: 10px;
             max-width: 400px;
             width: 100%;
@@ -78,16 +78,16 @@ body{
           input, textarea {
             padding: 8px;
             margin-bottom: 10px;
-            border: 2px solid teal;
+            border: 2px solid orangered;
           }
           
           button {
             padding: 8px 15px;
-            background-color: blue;
+            background-color: orangered;
             color: honeydew;
             border: none;
             border-radius: 5px;
           }
           button:hover {
-            background-color: #3230ae;
+            background-color: #9f5130;
           }
