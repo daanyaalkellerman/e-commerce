@@ -60,9 +60,8 @@ body{
 }
 p{
     font-size: 20px;
+    text-align: center;
     color: orangered;
-    background-color: black;
-    border: 2px solid;
 }
 .styled-button {
     display: inline-block;
@@ -75,7 +74,6 @@ p{
     border: 2px solid black;
     color: black;
     background-color: honeydew;
-    margin-left: 170px;
   }
   
   .styled-button:hover {
@@ -86,9 +84,12 @@ p{
   .styled-button:focus {
     outline: none;
   }
-  
+  h1 {
+    background-color: Black ;
+    color: orangered;
+  }
 footer{
-    bottom: 0;
-    position: absolute;
-    width: 100%;
+  position: relative;
+  bottom: 0;
+   width: 100%;
 }
