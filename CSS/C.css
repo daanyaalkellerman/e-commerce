@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Gabarito ;
+}
+nav a{
+    position: sticky;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+   text-decoration: none;
+}
+nav a:hover{
+    background-color: orangered;
+    color: black;
+}
+ul{
+    display: flex;
+    list-style: none;
+    color: black;
+}
+li{
+    padding: 10px;
+}
+@media screen and (max-width:300px) {
+    nav a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+h1{
+    background-size: cover;
+    padding: 20px;
+    background-color: Blue;
+    color: orangered;
+    text-align: center;
+}
+body{
+    background: linear-gradient(teal,honeydew) no-repeat;
+
+  }
+  @media screen and (max-width:600px){
+    body{
+        background: linear-gradient(teal,honeydew) no-repeat;
+    
+      }
+    }
+      @media screen and (min-width:320px){
+        body{
+            background: linear-gradient(teal,honeydew) no-repeat;
+        
+          }
+        }
+        .box-container {
+            display: flex;
+            justify-content: center;
+            height: 100%;
+          }
+          
+          .box {
+            background-color: orangered;
+            padding: 10px;
+            max-width: 400px;
+            width: 100%;
+            border-radius: 13px;
+          }
+          form {
+            display: flex;
+            flex-direction: column;
+          }
+          
+          label {
+            margin-bottom: 4px;
+          }
+          
+          input, textarea {
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 2px solid teal;
+          }
+          
+          button {
+            padding: 8px 15px;
+            background-color: blue;
+            color: honeydew;
+            border: none;
+            border-radius: 5px;
+          }
+          button:hover {
+            background-color: #3230ae;
+          }
