@@ -67,24 +67,7 @@ body{
 img {
     width: auto;
     max-width: 30%;
-   display: inline-block;
+   display: block;
    margin: 0 auto;
 }
-.container-flexbox {
-    display: flex;
-  }
-.image-container {
-    flex: 0 0 auto; /* Adjust this to control image width */
-    padding: 10px;
-  }
-  
-.image-container img {
-    width: 100%;
-    height: auto;
-  }
-  .text-container {
-    flex: 1; /* Adjust this to control text width */
-    padding: 10px;
-  }
-  
   
