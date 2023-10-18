@@ -3,6 +3,9 @@
     padding: 0;
     font-family:Gabarito ;
 }
+nav{
+    margin-bottom: 53px;
+}
 nav a{
     position: sticky;
     float: left;
@@ -36,6 +39,7 @@ h1{
     background-color: black;
     color: orangered;
     text-align: center;
+    margin-bottom: 50px;
 }
 body{
     background: linear-gradient(black, purple) no-repeat;
