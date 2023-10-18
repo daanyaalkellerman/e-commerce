@@ -11,6 +11,9 @@ nav a{
     padding: 14px 16px;
    text-decoration: none;
 }
+a{
+    color: orangered;
+}
 nav a:hover{
     background-color: orangered;
     color: black;
@@ -33,33 +36,55 @@ li{
 h1{
     background-size: cover;
     padding: 20px;
-    background-color: Blue;
+    background-color: black;
     color: orangered;
     text-align: center;
 }
 body{
-    background: linear-gradient(teal,honeydew) no-repeat;
+    background: linear-gradient(black, purple) no-repeat;
 
   }
   @media screen and (max-width:600px){
     body{
-        background: linear-gradient(teal,honeydew) no-repeat;
+        background: linear-gradient(black, purple) no-repeat;
     
       }
     }
       @media screen and (min-width:320px){
         body{
-            background: linear-gradient(teal,honeydew) no-repeat;
+            background: linear-gradient(black, purple) no-repeat;
         
           }
         }
-section p{
+ p{
     color: orangered;
     text-align: center;
+    border: 3px solid;
+    background-color: black;
+    border-color: orangered;
+    
 }
-img{
+img {
     width: auto;
     max-width: 30%;
-   display: block;
+   display: inline-block;
    margin: 0 auto;
 }
+.container-flexbox {
+    display: flex;
+  }
+.image-container {
+    flex: 0 0 auto; /* Adjust this to control image width */
+    padding: 10px;
+  }
+  
+.image-container img {
+    width: 100%;
+    height: auto;
+  }
+  .text-container {
+    flex: 1; /* Adjust this to control text width */
+    padding: 10px;
+  }
+  
+  
