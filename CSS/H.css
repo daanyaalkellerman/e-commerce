@@ -3,12 +3,17 @@
     padding: 0;
     font-family:Gabarito ;
 }
-nav{
+nav a{
     position: sticky;
-    margin-top: 2px;
+    float: left;
+    display: block;
     text-align: center;
-    background-color: red;
-    top: 0;
+    padding: 14px 16px;
+   text-decoration: none;
+}
+nav a:hover{
+    background-color: orangered;
+    color: black;
 }
 ul{
     display: flex;
@@ -16,30 +21,47 @@ ul{
     color: black;
 }
 li{
-    padding: 15px;
+    padding: 10px;
 }
-nav a{
-    text-decoration: none;
+@media screen and (max-width:300px) {
+    nav a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
 }
 h1{
+    background-size: cover;
+    padding: 20px;
+    background-color: Blue;
+    color: orangered;
     text-align: center;
 }
 body{
-    background-color: cyan;
+    background: linear-gradient(teal,honeydew) no-repeat;
+
   }
+  @media screen and (max-width:600px){
+    body{
+        background: linear-gradient(teal,honeydew) no-repeat;
+    
+      }
+    }
+      @media screen and (min-width:320px){
+        body{
+            background: linear-gradient(teal,honeydew) no-repeat;
+        
+          }
+        }
 section p{
-    border: 3px solid;
-    border-color: black;
-;
-}
-h1{
-    background-color: cyan;
+    /* border: 3px solid;
+    border-color: orangered; */
+    color: orangered;
+    text-align: center;
 }
 img{
-    width: 320px;
-}
-section p{
-    float: right;
-    background-color: red;
-    margin-right:60px
+    width: auto;
+    max-width: 30%;
+   display: block;
+   margin: 0 auto;
 }
