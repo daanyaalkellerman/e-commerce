@@ -3,6 +3,12 @@
     padding: 0;
     font-family:Gabarito ;
 }
+nav{
+    margin-bottom: 53px;
+}
+a{
+    color: orangered;
+}
 nav a{
     position: sticky;
     float: left;
@@ -31,31 +37,28 @@ li{
     }
 }
 body{
-    background: linear-gradient(teal,honeydew) no-repeat;
-
+    background: linear-gradient(black, purple) no-repeat;
   }
   @media screen and (max-width:600px){
     body{
-        background: linear-gradient(teal,honeydew) no-repeat;
+        background: linear-gradient(black, purple) no-repeat;
     
       }
     }
       @media screen and (min-width:320px){
         body{
-            background: linear-gradient(teal,honeydew) no-repeat;
+            background: linear-gradient(black, purple) no-repeat;
         
           }
         }
         h1{
-            background-size: cover;
-            padding: 20px;
-            background-color: Blue;
+            padding: 12px;
+            background-color: black;
             color: orangered;
             text-align: center;
+            border: 2px solid;
         }
-        section p{
-            /* border: 3px solid;
-            border-color: orangered; */
+       p{
             color: orangered;
             text-align: center;
         }
@@ -65,3 +68,8 @@ body{
            display: block;
            margin: 0 auto;
         }
+        footer{
+            position: relative;
+            bottom: 0;
+             width: 100%;
+          }
