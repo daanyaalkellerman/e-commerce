@@ -2,6 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="/CSS/AD.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap">
 </head>
 <body>
   <div class="admin-container">
@@ -9,35 +10,60 @@
       <h2>Admin Menu</h2>
       <ul>
         <li><a href="/Home.html">Home</a></li>
-        <li><a href="/Product.html">Products</a></li>
         <li><a href="/About.html">About</a></li>
+        <li><a href="/Product.html">Products</a></li>
         <li><a href="/Contact.html">Contact</a></li>
         <li><a href="/admin.html">Checkout</a></li>
       </ul>
     </div>
-    <div class="admin-content">
-      <?php
-        // Simulated server-side content based on the requested page
-        $page = $_GET['page'] ?? 'dashboard';
-
-        switch ($page) {
-          case 'dashboard':
-            echo '<h2>Dashboard</h2><p>This is the admin dashboard.</p>';
-            break;
-          case 'users':
-            echo '<h2>Users</h2><p>Manage users here.</p>';
-            break;
-          case 'products':
-            echo '<h2>Products</h2><p>Manage products here.</p>';
-            break;
-          case 'settings':
-            echo '<h2>Settings</h2><p>Configure settings here.</p>';
-            break;
-          default:
-            echo '<h2>Dashboard</h2><p>This is the admin dashboard.</p>';
-        }
-      ?>
+    <center class="admin-content">
+      <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Gojo Satorou</td>
+            <td>2</td>
+            <td>R999.99</td>
+        </tr>
+        <tr>
+            <td>Snorlax</td>
+            <td>1</td>
+            <td>R12.00</td>
+        </tr>
+        <tr>
+            <td>Tanjiro</td>
+            <td>3</td>
+            <td>R1300.00</td>
+        </tr>
+        <tr>
+          <td>Tony Chopper</td>
+          <td>2</td>
+          <td>R0.00</td>
+      </tr>
+      <tr>
+        <td>Sleeping Pikachu</td>
+        <td>2</td>
+        <td>R420.69</td>
+    </tr>
+    <tr>
+      <td>Pochita</td>
+      <td>2</td>
+      <td>R666.66</td>
+  </tr>
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td>Insufficient Funds</td>
+        </tr>
+    </table>
+    
+    <button href="#" class="checkout-button">Checkout</button>
+    <center><img src="https://www.icegif.com/wp-content/uploads/2022/03/icegif-1135.gif" alt=""></center>
     </div>
   </div>
+  <footer>Honestly why you buying these things</footer>
 </body>
 </html>

@@ -1,7 +1,9 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: gabarito;
     margin: 0;
     padding: 0;
+    background: linear-gradient(black, purple) no-repeat;
+
   }
   
   .admin-container {
@@ -10,8 +12,9 @@ body {
   
   .admin-sidebar {
     width: 200px;
-    background-color: #f0f0f0;
+    background-color: black;
     padding: 20px;
+    color: orangered;
   }
   
   .admin-sidebar h2 {
@@ -29,16 +32,55 @@ body {
   }
   
   .admin-sidebar li a {
-    color: #333;
+    color: orangered;
     text-decoration: none;
     display: block;
   }
   
   .admin-sidebar li a:hover {
-    background-color: #e0e0e0;
+    background-color: orangered;
+    color: black;
   }
   
   .admin-content {
     padding: 20px;
+    margin: auto;
   }
-  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid orangered;
+    padding: 8px;
+    text-align: left;
+    color: orangered;
+}
+
+th {
+    background-color: black;
+    color: orangered;
+}
+
+tr:hover {
+    background-color: purple;
+    color: black;
+}
+button{;
+  padding: 8px 15px;
+  background-color: orangered;
+  color: honeydew;
+  border: none;
+  border-radius: 2px;
+}
+button:hover{
+  background-color: #9f5130;
+}
+footer{
+  margin-top: 4%;
+  text-align: center;
+  background-color: black;
+  color: orangered;
+  padding: 0.9%;
+}
