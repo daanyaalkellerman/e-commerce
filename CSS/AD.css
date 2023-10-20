@@ -85,7 +85,7 @@ footer{
   color: orangered;
   padding: 0.9%;
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:700px){
   body{
       background: linear-gradient(black, purple) no-repeat;
   
