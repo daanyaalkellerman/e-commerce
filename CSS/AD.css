@@ -67,3 +67,20 @@ tr:hover {
     background-color: purple;
     color: black;
 }
+button{;
+  padding: 8px 15px;
+  background-color: orangered;
+  color: honeydew;
+  border: none;
+  border-radius: 2px;
+}
+button:hover{
+  background-color: #9f5130;
+}
+footer{
+  margin-top: 4%;
+  text-align: center;
+  background-color: black;
+  color: orangered;
+  padding: 0.9%;
+}

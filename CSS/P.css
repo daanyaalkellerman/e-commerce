@@ -91,5 +91,8 @@ p{
 footer{
   position: relative;
   bottom: 0;
-   width: 100%;
+   text-align: center;
+   background-color: black;
+   color: orangered;
+   padding: 1%;
 }

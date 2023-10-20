@@ -99,5 +99,9 @@ body{
             background-color: #9f5130;
           }
           footer{
-            margin-top: 15%;
+            margin-top: 13%;
+            text-align: center;
+            background-color: black;
+            color: orangered;
+            padding: 0.9%;
           }

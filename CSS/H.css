@@ -62,12 +62,26 @@ body{
     border: 3px solid;
     background-color: black;
     border-color: orangered;
-    
+ 
 }
 img {
     width: auto;
-    max-width: 30%;
-   display: block;
+    max-width: 33%;
    margin: 0 auto;
+}
+/* .image-container{
+    margin-left: 39.5%;
+} */
+/* .text-container{ margin-right:10%;
+} */
+/* section{
+    display:flex;
+    margin-top: 5%;
+} */
+footer{
+    text-align: center;
+    background-color: black;
+    color: orangered;
+    padding: 1%;
 }
   
