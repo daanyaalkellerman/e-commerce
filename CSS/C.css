@@ -105,3 +105,19 @@ body{
             color: orangered;
             padding: 0.9%;
           }
+          @media screen and (max-width:768px){
+            body{
+                background: linear-gradient(black, purple) no-repeat;
+            
+              }
+              nav{
+                margin-bottom: 43px;
+            }
+            footer{
+              margin-top: 11.1%;
+              text-align: center;
+              background-color: black;
+              color: orangered;
+              padding: 0.9%;
+            }
+            }
